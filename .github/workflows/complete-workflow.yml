@@ -1,5 +1,8 @@
 name: Build code, run unit test, run SAST, SCA, DAST security scans by ravee
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
